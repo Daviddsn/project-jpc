@@ -174,7 +174,7 @@ header .menu-section ul li a:hover{
     position: relative;
     border: 3px solid #ffffff;
     padding-bottom: 56.25%;
-    background-image: url("/assets/img/video.jpg");
+    background-image: url("../assets/img/video.jpg");
     background-size: contain;
     background-position: center;
     position: relative;
@@ -187,7 +187,7 @@ header .menu-section ul li a:hover{
     width: 100%;
 }
 .about .about-video .play{
-    background-image: url("/assets/img/play.png");
+    background-image: url("../assets/img/play.png");
     background-size: cover;
     position: absolute;
     top: 0;
@@ -225,7 +225,6 @@ footer small{
 footer img{
     width: 15px;
     height: 15px;
-    color: red;
     vertical-align: top;
     margin-left: 1rem;
 }
