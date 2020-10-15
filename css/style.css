@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+.clear{
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+input,textarea{
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .header-top{
+    padding-top: 3rem;
+    background-color: #141414;
+    margin-bottom: 1rem;
+}
+header .logo img{
+    height: 3.2rem;
+}
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu-section ul{
+    list-style: none;
+}
+header .menu-section ul li{
+    display: inline-block;
+    padding: .8rem 1.5rem;
+}
+
+header .menu-section ul li a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #141414;
+}
+header .menu-section ul li a:hover{
+    color:#FFA500 ;
+}
+.banner{
+    background-color: #EEF0F2;
+    height: 80%;
+    
+}
+.banner .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banner .img-banner{
+    background-image: url("../assets/img/orando.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+    width: 60%;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+   
+}
+/* ============= BANNER ================== */
+.banner .text{
+    text-align: center;
+    max-width: 450px;
+    width: 40%;
+}
+.banner .text h2{
+    font-size: 6rem;
+    padding: 3rem 0;
+}
+.banner .text p{
+    font-size: 1.8rem;
+}
+
+.banner .bnt a{
+    display: block;
+    height: 4.5rem;
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    line-height: 4.2rem;;
+    border-radius: 16px;
+}
+
+.banner .bnt a#more{
+    background-color: #0D21A1;
+    color: #FFA500;
+}
+
+.banner .bnt a#copy{
+    background-color: #C1292E;
+    color: #EEF0F2;
+}
+
+/* ========== VALUE =================== */
+.value{
+    padding: 4rem 0;
+}
+.value > .container{
+    display: flex;
+}
+.value .value-single{
+    text-align: center;
+    padding: 2rem;
+}
+.value .value-single .img-value{
+    width: 100px;
+    height: 100px;
+    background-color: #EEF0F2;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.value .value-single h3{
+    font-size: 1.6rem;
+    color: #141414;
+    padding: 1rem 0;
+}
+
+.value .value-single p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #141414;
+}
+
+.value .value-single.one .img-value{
+    background-image: url("../assets/img/biblia.png");
+    background-size: contain;
+    background-position: center;
+}
+.value .value-single.two .img-value{
+    background-image: url("../assets/img/cruz.png");
+    background-size: contain;
+    background-position: center;
+}
+.value .value-single.three .img-value{
+    background-image: url("../assets/img/peixe.png");
+    background-size: contain;
+    background-position: center;
+}
+
+/* ================= ABOUT ================== */
+.about{
+    background: #EEF0F2;
+    padding: 2rem 0;
+}
+.about .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 2%;
+}
+.about .about-video{
+    position: relative;
+    border: 3px solid #ffffff;
+    padding-bottom: 56.25%;
+    background-image: url("/assets/img/video.jpg");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+.videos .about-video iframe{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.about .about-video .play{
+    background-image: url("/assets/img/play.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 48px;
+    width: 48px;
+}
+.about .about-text {
+    max-width: 400px;
+    justify-self: end;
+}
+.about .about-text h2{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+
+}
+.about .about-text p{
+    font-size: 1.6rem;
+
+}
+
+
+footer{
+ height: 5%;
+ padding: 2rem;
+ text-align: center;
+}
+footer small{
+    display: inline-block;
+    font-size: 1.3rem;
+}
+footer img{
+    width: 15px;
+    height: 15px;
+    color: red;
+    vertical-align: top;
+    margin-left: 1rem;
+}
